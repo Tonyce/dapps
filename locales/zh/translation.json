@@ -1,0 +1,83 @@
+{
+  "menu": {
+    "login": "连接 starmask",
+    "batch_token": "批量发送Token",
+    "batch_convert": "批量转换发送Token",
+    "batch_balance": "批量查询Token",
+    "rpc_ping": "RPC 节点测速",
+    "unit": "单位转换",
+    "chain_record": "链上记录",
+    "issue_token": "发行Token",
+    "games": "游戏",
+    "showdown": "猜大小",
+    "finger_guessing": "剪刀石头布",
+    "sicbo_friend": "和朋友比大小",
+    "donate": "捐赠"
+  },
+  
+  "issue_token": {
+    "title": "发行 Starcoin Token",
+    "token_address": "Token地址",
+    "token_name": "Token名字",
+    "token_name_alert": "只能填英文字符,需要以大写英文字母 A 到 Z 开头，且只能包含下划线 _、A 到 Z 的字母、a 到 z 的字母、0 到 9 的数字,不能是中文,而且不能是Move语言的关键字",
+    "token_precision": "Token精度",
+    "submit_btn": "发行Token",
+    "init_mint": "初始挖矿",
+    "error_tips": {
+      "token_name_required": "Token名字不能为空",
+      "token_address_required": "请先连接Starmask",
+      "token_precision_required": "Token精度不能为空",
+      "token_precision_invalid": "Token精度必须是整数",
+      "token_precision_range": "Token精度必须在0-38之间"
+    }
+  },
+
+  "batch_token": {
+      "send":"发送"
+  },
+
+  "batch_balance": {
+      "query": "查询"
+  },
+  "rpc_speed": {
+    "url": "地址",
+    "delay": "延迟",
+    "height": "区块高度",
+    "actions": "操作",
+    "copy": "复制地址",
+    "ms": "毫秒"
+  },
+  "chain_record": {
+      "query_record": "查询已有记录",
+      "desc" :"去中心化，不可改变，永久记录不需要编程技能",
+      "content" :"记录内容",
+      "receive_address" :"接收地址",
+      "stc_amount" :"发送STC个数",
+      "record_on" :"记录到链上",
+      "record_tx" :"链上交易哈希",
+      "record_time" :"记录时间"
+  },
+
+  "showdown": {
+    "amount": "金额",
+    "check": "猜一猜",
+    "true": "大",
+    "false": "小"
+  },
+
+  "finger_guessing": {
+    "amount": "金额",
+    "check": "来一局",
+    "scissors": "剪刀",
+    "rock": "石头",
+    "paper": "布"
+  },
+
+  "sio_bo": {
+    "amount": "在 1 ~ 9 选择一个数字",
+    "start_new_game": "创建游戏",
+    "friend_addr": "朋友地址",
+    "join_the_game": "加入游戏",
+    "decrypt_game": "解密游戏"
+  }
+}

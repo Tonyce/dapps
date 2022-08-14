@@ -1,0 +1,83 @@
+{
+  "menu": {
+    "login": "Connect starmask",
+    "batch_token": "Batch Send Token",
+    "batch_convert": "Batch Convert Send Token",
+    "batch_balance": "Batch Query Token",
+    "rpc_ping": "RPC speed",
+    "unit": "Unit Converter",
+    "chain_record": "Chain Record",
+    "issue_token": "Issue Token",
+    "games": "Games",
+    "showdown": "Showdown",
+    "finger_guessing": "FingerGuessing",
+    "sicbo_friend": "SicBoWithFriend",
+    "donate": "Donate"
+  },
+  
+  "issue_token": {
+    "title": "Issue Starcoin Token",
+    "token_address": "Token Address",
+    "token_name": "Token Name",
+    "token_name_alert": "The name contains only English characters,The first letter must be capitalized, and It cannot be a keyword of the MOVE language",
+    "token_precision": "Token Precision",
+    "init_mint": "Init Mint",
+    "submit_btn": "Issue Token",
+    "error_tips": {
+      "token_name_required": "Token name is required",
+      "token_address_required": "Please connect to starmask first",
+      "token_precision_required": "Token precision is required",
+      "token_precision_invalid": "Token precision is invalid",
+      "token_precision_range": "Token precision must be between 0 and 38"
+    }
+  },
+
+  "batch_token": {
+    "send": "Send"
+  },
+
+  "batch_balance": {
+    "query": "Query"
+  },
+  "rpc_speed": {
+    "url": "URL",
+    "delay": "Delay",
+    "height": "Block Height",
+    "actions": "Actions",
+    "copy": "copy url",
+    "ms": "ms"
+  },
+  "chain_record": {
+    "query_record": "query record on ",
+    "desc": "Decentralized, Unchangeable, Permanent record No programming skills required",
+    "content": "Content",
+    "receive_address": "Receive Address",
+    "stc_amount": "Send Number STC",
+    "record_on": "Record On Chain",
+    "record_tx": "Record Transaction Hash",
+    "record_time": "Record Time"
+  },
+
+  "showdown": {
+    "amount": "amount",
+    "check": "check",
+    "true": "T",
+    "false": "F"
+  },
+
+  "finger_guessing": {
+    "amount": "amount",
+    "check": "check",
+    "scissors": "Scissors",
+    "rock": "Rock",
+    "paper": "Paper"
+  },
+
+  "sio_bo": {
+    "amount": "Select a number from 1 ~ 9",
+    "start_new_game": "StartNewGame",
+    "friend_addr": "The Friend's Address",
+    "join_the_game": "JoinTheGame",
+    "decrypt_game": "DecryptGame"
+  }
+}
