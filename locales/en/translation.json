@@ -11,7 +11,7 @@
     "games": "Games",
     "showdown": "Showdown",
     "finger_guessing": "FingerGuessing",
-    "sicbo_friend": "SicBoWithFriend",
+    "sicbo_friend": "FingerGuessingWithFriend",
     "donate": "Donate",
     "constract_deploy": "Deploy Constract"
   },
